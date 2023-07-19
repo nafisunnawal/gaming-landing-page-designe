@@ -242,4 +242,57 @@ nav{
     border-radius: 50px;
     background-color: #FFF;
     padding: 10px 20px 10px 0px;
-}    
+}  
+.foot{
+    background-color: #0B0223;
+    
+}  
+.foot-option > li >a{
+    text-decoration: none;
+    margin-right: 60px;
+    text-align: center;
+    color: #FFF;
+    
+}
+.foot-title{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    padding-top: 120px;
+}
+.foot-title > h2{
+    font-size: 45px;
+    font-weight: 700px;
+}
+.foot-option{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 73px;
+}
+.foot-icon{
+    display: flex;
+    justify-content: center;
+}
+.foot-icon > li{
+    margin-right: 40px;
+    margin-top: 56px;
+}
+.foot-service{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 63px;
+}
+.foot-service > li > a{
+    text-decoration: none;
+    margin-right: 60px;
+    color: #FFF;
+}
+.last-foot{
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+    padding-bottom: 130px;
+    color: #FFF;
+}
