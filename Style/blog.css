@@ -156,6 +156,58 @@ nav{
     width: 342px;
     
 }
+.img-container{
+    position: relative;
+    width: 342px;
+    height: 400px;
+    overflow: hidden;
+    
+}
+.blur-img{
+    width: 100%;
+    height: 100%;
+    filter: blur(1px);
+    transition: filter .3s ease;
+}
+.overshow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    background:rgba(0, 0, 0, 0.5);
+    transition: opacity .3s ease;
+}
+.fa-play{
+    font-size: 38px;
+    color: #FF42A5;
+    cursor: pointer;
+    transition: opacity .3s ease;
+}
+.text{
+    color: #FF42A5;
+    font-size: 20px;
+    margin-top: 10px;
+    transition: opacity .3s ease;
+}
+.img-container:hover .blur-img{
+    filter: blur(0);
+    
+}
+.img-container:hover .overshow{
+    opacity: 1;
+}
+.img-container:hover .fa-play{
+    opacity: 1;
+}
+.img-container:hover .text{
+    opacity: 1;
+}
 .card >img:hover{
     border: 2px solid #FF42A5;
     border-radius: 8px;
